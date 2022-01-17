@@ -23,10 +23,17 @@
     <meta name="keywords" content="IIITH Resources">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-    <link rel="icon" type="image/png" href="../../images/logo.png" />
-    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
     <noscript>
-        <link rel="stylesheet" href="../assets/css/noscript.css" />
+        <link rel="stylesheet" href="./assets/css/noscript.css" />
     </noscript>
 </head>
 
@@ -41,22 +48,22 @@
 
         <!-- Header -->
         <header id="header">
-            <a href="../../index.html" class="logo" style="color: aquamarine;" title="Home Page">IIITH Resources</a>
+            <a href="/index.html" class="logo" style="color: aquamarine;" title="Home Page">IIITH Resources</a>
         </header>
 
         <!-- Nav -->
         <nav id="nav">
             <ul class="links">
-                <li><a href="./index.html">NeSS - Home</a></li>
+                <li><a href="../index.html">NeSS - Home</a></li>
                 <li class="active"><a href="./assignment.html">Assignments</a></li>
                 <li><a href="./exam.html">Exams</a></li>
             </ul>
             <ul class="links">
                 <li></li>
-                <li class="active"><a href="../../index.html">Site - Home</a></li>
+                <li class="active"><a href="/index.html">Site - Home</a></li>
             </ul>
             <ul class="icons">
-                <li><a href="../../index.html#about" class="icon brands fa-github" rel="author" target="_self"><span
+                <li><a href="/index.html#about" class="icon brands fa-github" rel="author" target="_self"><span
                             class="label">GitHub Repository</span></a></li>
             </ul>
             <!--<ul class="icons">
@@ -82,9 +89,8 @@
                 <div class="row">
                     <div class="col-6 col-12-small">
                         <ul class="actions stacked">
-                            <a href=""
-                            <li><a href="#PDFViewer" class="button small fit"
-                                    onclick="pdffn('../../Semester-1/Networks_Signals_and_Systems/Assignments/NetworkHW1.pdf','../assets/ViewerJS/#../../../Semester-1/Networks_Signals_and_Systems/Assignments/NetworkHW1.pdf')">HW
+                            <a href="" <li><a href="#PDFViewer" class="button small fit"
+                                    onclick="pdffn('../Assignments/NetworkHW1.pdf','../assets/ViewerJS/#../../../Assignments/NetworkHW1.pdf')">HW
                                     1
                                 </a></li>
                         </ul>
@@ -92,7 +98,7 @@
                     <div class="col-6 col-12-small">
                         <ul class="actions stacked">
                             <li><a href="#PDFViewer" class="button small fit"
-                                    onclick="pdffn('../../Semester-1/Networks_Signals_and_Systems/Assignments/HW3.pdf','../assets/ViewerJS/#../../../Semester-1/Networks_Signals_and_Systems/Assignments/HW3.pdf')">HW
+                                    onclick="pdffn('../Assignments/HW3.pdf','../assets/ViewerJS/#../../../Assignments/HW3.pdf')">HW
                                     2
                                 </a></li>
                         </ul>
@@ -166,18 +172,20 @@
                  ->
             </ul>
         </div>-->
-        <include src="../footer_courses.html"></include>
+        <include src="./footer.html"></include>
 
     </div>
 
     <!-- Scripts -->
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/jquery.scrollex.min.js"></script>
-    <script src="../assets/js/jquery.scrolly.min.js"></script>
-    <script src="../assets/js/browser.min.js"></script>
-    <script src="../assets/js/breakpoints.min.js"></script>
-    <script src="../assets/js/util.js"></script>
-    <script src="../assets/js/main.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/jquery.scrollex.min.js"></script>
+    <script src="./assets/js/jquery.scrolly.min.js"></script>
+    <script src="./assets/js/browser.min.js"></script>
+    <script src="./assets/js/breakpoints.min.js"></script>
+    <script src="./assets/js/util.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://unpkg.com/htmlincludejs"></script>
+    <!---<include src="./trial.html"></include>--->
 
     <script>
         function pdffn(name1, name2) {

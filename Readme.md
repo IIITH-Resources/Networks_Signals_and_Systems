@@ -10,3 +10,4 @@ Tutorial : 1
 Practical : 0
 
 #### Grading Scheme
+![Grading](./Grading/Nessgrades.png)

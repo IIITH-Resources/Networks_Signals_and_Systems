@@ -23,10 +23,17 @@
     <meta name="keywords" content="IIITH Resources">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-    <link rel="icon" type="image/png" href="../../images/logo.png" />
-    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
     <noscript>
-        <link rel="stylesheet" href="../assets/css/noscript.css" />
+        <link rel="stylesheet" href="./assets/css/noscript.css" />
     </noscript>
 </head>
 
@@ -41,22 +48,22 @@
 
         <!-- Header -->
         <header id="header">
-            <a href="../../index.html" class="logo" style="color: aquamarine;" title="Home Page">IIITH Resources</a>
+            <a href="/index.html" class="logo" style="color: aquamarine;" title="Home Page">IIITH Resources</a>
         </header>
 
         <!-- Nav -->
         <nav id="nav">
             <ul class="links">
-                <li><a href="./index.html">NeSS - Home</a></li>
+                <li><a href="../index.html">NeSS - Home</a></li>
                 <li><a href="./assignment.html">Assignments</a></li>
                 <li class="active"><a href="./exam.html">Exams</a></li>
             </ul>
             <ul class="links">
                 <li></li>
-                <li class="active"><a href="../../index.html">Site - Home</a></li>
+                <li class="active"><a href="/index.html">Site - Home</a></li>
             </ul>
             <ul class="icons">
-                <li><a href="../../index.html#about" class="icon brands fa-github" rel="author" target="_self"><span
+                <li><a href="/index.html#about" class="icon brands fa-github" rel="author" target="_self"><span
                             class="label">GitHub Repository</span></a></li>
             </ul>
             <!--<ul class="icons">
@@ -82,7 +89,7 @@
                     <div class="col-6 col-12-small">
                         <ul class="actions stacked">
                             <li><a href="#PDFViewer" class="button primary fit"
-                                    onclick="pdffn('../../Semester-1/Networks_Signals_and_Systems/Exams/Midterm.pdf','../assets/ViewerJS/#../../../Semester-1/Networks_Signals_and_Systems/Exams/Midterm.pdf')">Mid-semester
+                                    onclick="pdffn('../../Exams/Midterm.pdf','../assets/ViewerJS/#../../../Exams/Midterm.pdf')">Mid-semester
                                     exam</a></li>
                         </ul>
                     </div>
@@ -103,27 +110,27 @@
                 </div>
             </section>
             <!---<p>Don't wander in the woods alone. I have heard the owner is dangerous</p>--->
+        </div>
 
-
-            <!-- Footer -->
-            <footer id="footer">
-                <section>
-                    <h4>Networks, Signals and Systems</h4>
+        <!-- Footer -->
+        <footer id="footer">
+            <section>
+                <h4>Networks, Signals and Systems</h4>
+            </section>
+            <section class="split contact">
+                <section class="alt">
+                    <h3>Professor</h3>
+                    <p>Santosh Nannuru ; Anshu Sarje</p>
                 </section>
-                <section class="split contact">
-                    <section class="alt">
-                        <h3>Professor</h3>
-                        <p>Santosh Nannuru ; Anshu Sarje</p>
-                    </section>
-                    <section>
-                        <h3>Timeline</h3>
-                        <p>Semester - 1</p>
-                    </section>
-                    <section>
-                        <h3>Year of Content</h3>
-                        <p>2021 - 2022</p>
-                    </section>
-                    <!--<section>
+                <section>
+                    <h3>Timeline</h3>
+                    <p>Semester - 1</p>
+                </section>
+                <section>
+                    <h3>Year of Content</h3>
+                    <p>2021 - 2022</p>
+                </section>
+                <!--<section>
 								<h3>Social</h3>
 								<ul class="icons alt">
 									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
@@ -132,11 +139,11 @@
 									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</section>-->
-                </section>
-            </footer>
+            </section>
+        </footer>
 
-            <!-- Copyright -->
-            <!--<div id="copyright">
+        <!-- Copyright -->
+        <!--<div id="copyright">
                 <ul>
                     <p class="copyright">&copy; <a href="https://github.com/bhavberi/IIITH-Resources/blob/main/LICENSE"
                             target="_blank" rel="follow">Bhav Beri & Contibutors. <img alt="GitHub"
@@ -150,32 +157,33 @@
                  ->
                 </ul>
             </div>-->
-            <include src="../footer_courses.html"></include>
+        <include src="./footer.html"></include>
+    </div>
 
-        </div>
+    <!-- Scripts -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/jquery.scrollex.min.js"></script>
+    <script src="./assets/js/jquery.scrolly.min.js"></script>
+    <script src="./assets/js/browser.min.js"></script>
+    <script src="./assets/js/breakpoints.min.js"></script>
+    <script src="./assets/js/util.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://unpkg.com/htmlincludejs"></script>
+    <!---<include src="./trial.html"></include>--->
 
-        <!-- Scripts -->
-        <script src="../assets/js/jquery.min.js"></script>
-        <script src="../assets/js/jquery.scrollex.min.js"></script>
-        <script src="../assets/js/jquery.scrolly.min.js"></script>
-        <script src="../assets/js/browser.min.js"></script>
-        <script src="../assets/js/breakpoints.min.js"></script>
-        <script src="../assets/js/util.js"></script>
-        <script src="../assets/js/main.js"></script>
-
-        <script>
-            function pdffn(name1, name2) {
-                var x = document.getElementById("PDFViewerObject");
-                var y = document.getElementById('PDFViewerIFrame');
-                x.data = name1;
-                y.contentWindow.history.replaceState('WhatEverNameYouWant', "", name2);
-                document.getElementById("PDFViewerIFrame").src = name2;
-                document.getElementById("PDFViewerDownload").href = name1;
-                if (document.getElementById("PDFViewer").style.display === "none") {
-                    document.getElementById("PDFViewer").style.display = "block";
-                }
+    <script>
+        function pdffn(name1, name2) {
+            var x = document.getElementById("PDFViewerObject");
+            var y = document.getElementById('PDFViewerIFrame');
+            x.data = name1;
+            y.contentWindow.history.replaceState('WhatEverNameYouWant', "", name2);
+            document.getElementById("PDFViewerIFrame").src = name2;
+            document.getElementById("PDFViewerDownload").href = name1;
+            if (document.getElementById("PDFViewer").style.display === "none") {
+                document.getElementById("PDFViewer").style.display = "block";
             }
-        </script>
+        }
+    </script>
 
 </body>
 
