@@ -14,8 +14,8 @@ We love your input! We want to make contributing to this project as easy and tra
 
 
 Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on 
-[IIITH-Resources Github Repository](https://github.com/IIITH-Resources/Networks_Signals_and_Systems/) & 
-[IIITH-Resources Web-Page](https://iiith-resources.github.io/Networks_Signals_and_Systems/) :sparkles:. 
+[IIITH-Resources Github Repository](https://github.com/IIITH-Resources/) & 
+[IIITH-Resources Web-Page](https://iiith-resources.github.io/) :sparkles:. 
 
 Please Read our [ Code of Conduct ](./CODE_OF_CONDUCT.md) to keep our community approachable and respectable.
 
@@ -32,8 +32,8 @@ To get an overview of the project, read the [README](../Readme.md). Here are som
 <p>Never made an open source contribution before? Wondering how contributions work in the in our project? Here's a quick rundown!</p>
 
 <ol><li>Find an issue that you are interested in addressing or a feature that you would like to add.</li>
-	<li>Fork the repository associated with the issue to your local GitHub organization. This means that you will have a copy of the repository under <strong>IIITH-Resources/DSM</strong>.</li>
-	<li>Clone the repository to your local machine using <strong>git clone <a href="https://github.com/IIITH-Resources/Networks_Signals_and_Systems.git">https://github.com/IIITH-Resources/Networks_Signals_and_Systems.git</a></strong>.</li>
+	<li>Fork the repository associated with the issue to your local GitHub organization. This means that you will have a copy of the repository under <strong>&lt;your username&gt;/Networks_Signals_and_Systems</strong>.</li>
+	<li>Clone the repository to your local machine using <strong>git clone <a href="https://github.com/&lt;your_username&gt;/Networks_Signals_and_Systems.git">https://github.com/&lt;your_username&gt;/Networks_Signals_and_Systems.git</a></strong>.</li>
 	<li>Create a new branch for your fix using <strong>git checkout -b branch-name-here</strong>.</li>
 	<li>Make the appropriate changes for the issue you are trying to address or the feature that you want to add.</li>
 	<li>Use <strong>git add insert-paths-of-changed-files-here</strong> to add the file contents of the changed files to the "snapshot" git uses to manage the state of the project, also known as the index.</li>
